@@ -122,4 +122,8 @@ footer a {
 
 .python-facts li::marker {
   content: "🐍";
-};
+}
+
+.meerkat-facts li::marker {
+  content: "🦦";
+}
