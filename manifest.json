@@ -19,8 +19,8 @@
         "purpose": "maskable"
       }
     ],
-    "start_url": "/",
-    "scope": ".",
+    "start_url": "/pwa_zoo/",
+    "scope": "/pwa_zoo/",
     "display": "standalone",
     "orientation": "portrait-primary",
     "background_color": "#fff",
