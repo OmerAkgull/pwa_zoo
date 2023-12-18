@@ -2,9 +2,9 @@ var deferredPrompt;
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('sw.js')
+    .register('/pwa_zoo/sw.js', { scope: 'pwa_zoo/'})
     .then(function () {
-      console.log('Service worker registered!');
+      console.log('Service worker registered with scope!', registration.scope);
     })
     .catch(function(err) {
       console.log(err);
