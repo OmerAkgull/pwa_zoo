@@ -93,8 +93,33 @@ footer a {
 }
 
 .animal-name {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 600;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
+
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+.animal-page {
+  width: 80%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.caracal-facts li::marker {
+  content: "🐱";
+}
+
+.fox-facts li::marker {
+  content: "🦊 ";
+}
+
+.python-facts li::marker {
+  content: "🐍";
+};
