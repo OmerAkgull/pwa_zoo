@@ -2,7 +2,7 @@ var deferredPrompt;
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('pwa_zoo/sw.js')
+    .register('sw.js')
     .then(function () {
       console.log('Service worker registered!');
     })
