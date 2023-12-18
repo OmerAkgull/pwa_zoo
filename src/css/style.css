@@ -127,3 +127,8 @@ footer a {
 .meerkat-facts li::marker {
   content: "🦦";
 }
+
+.map-img {
+  width: 100%;
+  height: auto;
+}
