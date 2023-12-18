@@ -8,11 +8,11 @@ self.addEventListener('install', function(event) {
         .then(function(cache) {
             console.log('[Service Worker] Precaching App Shell');
             cache.addAll([
-                '/pwa_zoo/',
-                '/pwa_zoo/index.html',
-                '/pwa_zoo/src/js/script.js',
-                '/pwa_zoo/src/img/welcome.png',
-                '/pwa_zoo/src/css/style.css'
+                'https://omerakgull.github.io/pwa_zoo/',
+                'https://omerakgull.github.io/pwa_zoo/index.html',
+                'https://omerakgull.github.io/pwa_zoo/src/js/script.js',
+                'https://omerakgull.github.io/pwa_zoo/src/img/welcome.png',
+                'https://omerakgull.github.io/pwa_zoo/src/css/style.css'
             ]);
         })
     )
