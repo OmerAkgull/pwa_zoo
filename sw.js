@@ -11,7 +11,7 @@ self.addEventListener('install', function(event) {
                 'https://omerakgull.github.io/pwa_zoo/',
                 'https://omerakgull.github.io/pwa_zoo/index.html',
                 'https://omerakgull.github.io/pwa_zoo/src/js/script.js',
-                'https://omerakgull.github.io/pwa_zoo/src/img/welcome.png',
+                'https://omerakgull.github.io/pwa_zoo/src/img/welcome.PNG',
                 'https://omerakgull.github.io/pwa_zoo/src/css/style.css'
             ]);
         })
