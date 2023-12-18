@@ -8,7 +8,7 @@ self.addEventListener('install', function(event) {
         .then(function(cache) {
             console.log('[Service Worker] Precaching App Shell');
             cache.addAll([
-                '/',
+                '/pwa_zoo/',
                 '/pwa_zoo/index.html',
                 '/pwa_zoo/src/js/script.js',
                 '/pwa_zoo/src/img/welcome.png',
