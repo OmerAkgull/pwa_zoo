@@ -1,0 +1,19 @@
+{
+  "name": "pwa_zoo",
+  "version": "1.0.0",
+  "description": "A Zoo app joint project prototype.",
+  "main": "sw.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmerAkgull/pwa_zoo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmerAkgull/pwa_zoo/issues"
+  },
+  "homepage": "https://github.com/OmerAkgull/pwa_zoo#readme"
+}
